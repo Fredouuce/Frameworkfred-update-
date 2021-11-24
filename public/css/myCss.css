@@ -1,0 +1,246 @@
+.content {
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  padding-top: 2em;
+  background-color: #37404a;
+  min-height: 100vh;
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+
+.titre_content {
+  font-size: 1.2em;
+}
+
+.panel {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel_content {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.lien {
+  text-decoration: none;
+  color: white;
+
+  width: 100%;
+  padding: 0.7em;
+}
+
+.btn_logout {
+  margin-top: 3rem;
+}
+
+.post_card_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post_card {
+  width: 300px;
+  height: 400px;
+  background: #596778;
+  padding: 1em;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  margin-top: 1.5em;
+}
+
+.post_dispo {
+  margin-top: 2em;
+}
+
+.post_dispo_title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.post_card_title {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+.post_card_lien {
+  color: white;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+.post_card_lien:hover {
+  color: white;
+  filter: opacity(0.5);
+}
+.post_card_tag {
+  position: absolute;
+  bottom: 5px;
+}
+
+.centered {
+  position: relative;
+  top: 10%;
+}
+
+.footer_modif {
+  height: 70px;
+  width: 100vw;
+  background: #37404a;
+}
+
+.footer_p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+.diapo_card {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+.diapo_img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.diapo_info_img {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.568);
+  width: 100%;
+}
+
+.diapo_info {
+  padding: 0.5em;
+  margin: 0;
+  color: white;
+}
+
+.diapo_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.admin-title {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.admin-title:hover {
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+.position1 {
+  position: absolute;
+  bottom: 0;
+}
+
+/**Gestion panel */
+.my_container{
+  background-color: #F5F1EF;
+}
+.tdb_panel_container
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1.2em;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.tdb_titre_pp
+{
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+.tdb_sous_panel2
+{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+justify-content: space-between  ;
+}
+.tdb_titre{
+font-size: 1.5em;
+font-weight: 500;
+}
+
+.tdb_btn{
+  color: white;
+  background-color:#1DA1F2 ;
+  padding:10px 35px;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+.tdb_btn:hover
+{
+  color: white;
+  background-color:#1676b1 ;
+}
+
+.tdb_panel_block
+{
+  display: flex;
+  flex-direction: column;
+}
+
+  .tdb_lien
+  {
+    margin-bottom: .4em;
+    text-decoration: none;
+  }
+.tdb_para{
+  margin: 0;
+  padding: 0;
+  margin-bottom: .3em;
+}
+
+.btn_close_panel
+{
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.btn_close_panel:hover{
+  filter: opacity(.5);
+}
+
+.d_n{
+  display: none;
+}
+
+.btn_open_panel{
+  cursor: pointer;
+}
